@@ -5,3 +5,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-01-15** `[002]`: docs: add initial architecture specification and RFC draft
 - **2022-01-19** `[003]`: docs: define data dictionary and byte-level alignment requirements
 - **2022-01-23** `[004]`: docs: document compiler flags and GnuCOBOL 3.2 toolchain setup
+- **2022-01-27** `[005]`: docs: establish TalTech coding standards and copybook guidelines
