@@ -16,3 +16,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-02-26** `[013]`: docs: establish open source contribution agreement
 - **2022-03-02** `[014]`: chore: add academic license header
 - **2022-03-05** `[015]`: docs: create changelog tracking ledger
+- **2022-03-09** `[016]`: docs: add directory layout conventions
