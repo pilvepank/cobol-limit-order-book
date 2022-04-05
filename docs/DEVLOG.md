@@ -23,3 +23,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-03-24** `[020]`: Merge pull request #1 from pilvepank/init-architecture
 - **2022-03-28** `[021]`: feat(schema): scaffold BOOK-CONFIG.cpy record layout and header fields
 - **2022-04-01** `[022]`: feat(schema): add secondary payload fields and attributes to BOOK-CONFIG.cpy
+- **2022-04-05** `[023]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in BOOK-CONFIG.cpy
