@@ -27,3 +27,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-04-08** `[024]`: feat(schema): declare 88-level condition names and validation states in BOOK-CONFIG.cpy
 - **2022-04-12** `[025]`: docs(schema): document byte offsets and alignment boundaries for BOOK-CONFIG.cpy
 - **2022-04-16** `[026]`: Merge pull request #6 from pilvepank/schema-book-config-cpy
+- **2022-04-20** `[027]`: feat(schema): scaffold ORDER-RECORD.cpy record layout and header fields
