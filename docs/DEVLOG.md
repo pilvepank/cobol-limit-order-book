@@ -28,3 +28,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-04-12** `[025]`: docs(schema): document byte offsets and alignment boundaries for BOOK-CONFIG.cpy
 - **2022-04-16** `[026]`: Merge pull request #6 from pilvepank/schema-book-config-cpy
 - **2022-04-20** `[027]`: feat(schema): scaffold ORDER-RECORD.cpy record layout and header fields
+- **2022-04-24** `[028]`: feat(schema): add secondary payload fields and attributes to ORDER-RECORD.cpy
