@@ -34,3 +34,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-05-05** `[031]`: docs(schema): document byte offsets and alignment boundaries for ORDER-RECORD.cpy
 - **2022-05-09** `[032]`: Merge pull request #8 from pilvepank/schema-order-record-cpy
 - **2022-05-13** `[033]`: feat(schema): scaffold SNAP-RECORD.cpy record layout and header fields
+- **2022-05-16** `[034]`: feat(schema): add secondary payload fields and attributes to SNAP-RECORD.cpy
