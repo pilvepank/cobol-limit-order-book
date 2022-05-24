@@ -36,3 +36,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-05-13** `[033]`: feat(schema): scaffold SNAP-RECORD.cpy record layout and header fields
 - **2022-05-16** `[034]`: feat(schema): add secondary payload fields and attributes to SNAP-RECORD.cpy
 - **2022-05-20** `[035]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in SNAP-RECORD.cpy
+- **2022-05-24** `[036]`: feat(schema): declare 88-level condition names and validation states in SNAP-RECORD.cpy
