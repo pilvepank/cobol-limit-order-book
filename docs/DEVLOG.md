@@ -39,3 +39,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-05-24** `[036]`: feat(schema): declare 88-level condition names and validation states in SNAP-RECORD.cpy
 - **2022-05-28** `[037]`: docs(schema): document byte offsets and alignment boundaries for SNAP-RECORD.cpy
 - **2022-05-31** `[038]`: Merge pull request #10 from pilvepank/schema-snap-record-cpy
+- **2022-06-04** `[039]`: feat(schema): scaffold TRADE-RECORD.cpy record layout and header fields
