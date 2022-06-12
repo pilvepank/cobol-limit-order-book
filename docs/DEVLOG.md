@@ -41,3 +41,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-05-31** `[038]`: Merge pull request #10 from pilvepank/schema-snap-record-cpy
 - **2022-06-04** `[039]`: feat(schema): scaffold TRADE-RECORD.cpy record layout and header fields
 - **2022-06-08** `[040]`: feat(schema): add secondary payload fields and attributes to TRADE-RECORD.cpy
+- **2022-06-12** `[041]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in TRADE-RECORD.cpy
