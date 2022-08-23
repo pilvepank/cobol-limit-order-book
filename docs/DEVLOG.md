@@ -60,3 +60,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-08-11** `[057]`: fix(lob): correct off-by-one boundary underflow in index calculation
 - **2022-08-15** `[058]`: Merge pull request #14 from pilvepank/fix-boundary-underflow
 - **2022-08-19** `[059]`: feat(lob): implement state serialization and snapshot persistence
+- **2022-08-23** `[060]`: feat(lob): implement state reconstruction and crash recovery loader
