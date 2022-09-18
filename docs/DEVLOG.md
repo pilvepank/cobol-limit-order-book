@@ -67,3 +67,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2022-09-07** `[064]`: fix(lob): handle zero-quantity edge case without state corruption
 - **2022-09-11** `[065]`: Merge pull request #14 from pilvepank/fix-zero-qty
 - **2022-09-14** `[066]`: feat(lob): add audit trail event logging and transaction counter
+- **2022-09-18** `[067]`: docs(lob): document engine execution lifecycle in docs/SPECIFICATION.md
