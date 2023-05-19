@@ -1,0 +1,65 @@
+*>================================================================
+*> PROGRAM:  lob_risk_manager.cbl
+*> PURPOSE:  Pre-Trade Fat-Finger & Credit Collar Enforcer
+*> ================================================================
+ IDENTIFICATION DIVISION.
+ PROGRAM-ID. LOB-RISK-MANAGER.
+
+ ENVIRONMENT DIVISION.
+ CONFIGURATION SECTION.
+ SPECIAL-NAMES.
+     DECIMAL-POINT IS COMMA.
+
+ DATA DIVISION.
+ WORKING-STORAGE SECTION.
+     COPY "RISK-CONFIG.cpy".
+ 01  WS-ORDER-NOTIONAL           PIC S9(12)V9(02) COMP-3.
+ 01  WS-MAX-ALLOWED-COLLAR       PIC S9(09)V9(04) COMP-3.
+ 01  WS-MIN-ALLOWED-COLLAR       PIC S9(09)V9(04) COMP-3.
+ 01  WS-MID-DIFF                 PIC S9(09)V9(04) COMP-3.
+
+ LINKAGE SECTION.
+ 01  LS-ORDER-REQ.
+     05  LS-ORD-ID               PIC 9(12) COMP-5.
+     05  LS-ORD-SIDE             PIC X(01).
+     05  LS-ORD-TYPE             PIC X(01).
+     05  LS-ORD-PRICE            PIC S9(09)V9(04) COMP-3.
+     05  LS-ORD-QTY              PIC 9(08) COMP-5.
+     05  LS-ORD-TRADER           PIC X(08).
+ 01  LS-MARKET-MID               PIC S9(09)V9(04) COMP-3.
+ 01  LS-RISK-VERDICT             PIC 9(04) COMP-5.
+     88  RISK-APPROVED           VALUE 0.
+     88  RISK-REJECT-MAX-QTY     VALUE 101.
+     88  RISK-REJECT-NOTIONAL    VALUE 102.
+     88  RISK-REJECT-COLLAR      VALUE 103.
+     88  RISK-REJECT-HALTED      VALUE 104.
+
+ PROCEDURE DIVISION USING LS-ORDER-REQ
+                          LS-MARKET-MID
+                          LS-RISK-VERDICT.
+ 0000-EVALUATE-RISK.
+     MOVE 0 TO LS-RISK-VERDICT.
+
+     IF LS-ORD-QTY > RC-MAX-ORDER-QTY
+         SET RISK-REJECT-MAX-QTY TO TRUE
+         GOBACK
+     END-IF.
+
+     COMPUTE WS-ORDER-NOTIONAL = LS-ORD-PRICE * LS-ORD-QTY.
+     IF WS-ORDER-NOTIONAL > RC-MAX-ORDER-NOTIONAL
+         SET RISK-REJECT-NOTIONAL TO TRUE
+         GOBACK
+     END-IF.
+
+     IF LS-MARKET-MID > 0 AND LS-ORD-TYPE = 'L'
+         COMPUTE WS-MAX-ALLOWED-COLLAR = LS-MARKET-MID * 1,0500
+         COMPUTE WS-MIN-ALLOWED-COLLAR = LS-MARKET-MID * 0,9500
+         IF LS-ORD-PRICE > WS-MAX-ALLOWED-COLLAR OR
+            LS-ORD-PRICE < WS-MIN-ALLOWED-COLLAR
+             SET RISK-REJECT-COLLAR TO TRUE
+             GOBACK
+         END-IF
+     END-IF.
+
+     SET RISK-APPROVED TO TRUE.
+     GOBACK.

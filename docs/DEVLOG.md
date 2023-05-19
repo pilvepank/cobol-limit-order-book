@@ -131,3 +131,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-05-07** `[128]`: test(coverage): expand assertion coverage for edge case condition #27
 - **2023-05-11** `[129]`: test(coverage): expand assertion coverage for edge case condition #28
 - **2023-05-15** `[130]`: test(coverage): expand assertion coverage for edge case condition #29
+- **2023-05-19** `[131]`: feat(lob_risk_manager): declare copybook schema RISK-CONFIG.cpy
