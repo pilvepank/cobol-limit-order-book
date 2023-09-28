@@ -166,3 +166,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-09-17** `[163]`: refactor(subsystems): tighten linkage section parameter validations (step 32)
 - **2023-09-20** `[164]`: refactor(subsystems): tighten linkage section parameter validations (step 33)
 - **2023-09-24** `[165]`: refactor(subsystems): tighten linkage section parameter validations (step 34)
+- **2023-09-28** `[166]`: feat(lob_fee_engine): declare copybook schema FEE-SCHEDULE.cpy
