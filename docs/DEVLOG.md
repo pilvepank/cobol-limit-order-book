@@ -172,3 +172,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-10-09** `[169]`: Merge pull request #55 from pilvepank/feat-lob_fee_engine
 - **2023-10-13** `[170]`: feat(lob_vwap_engine): declare copybook schema VWAP-STATE.cpy
 - **2023-10-17** `[171]`: feat(lob_vwap_engine): implement lob_vwap_engine.cbl operational routines
+- **2023-10-21** `[172]`: test(lob_vwap_engine): add automated unit tests in lob_fix_test.cbl
