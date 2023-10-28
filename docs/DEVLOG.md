@@ -174,3 +174,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-10-17** `[171]`: feat(lob_vwap_engine): implement lob_vwap_engine.cbl operational routines
 - **2023-10-21** `[172]`: test(lob_vwap_engine): add automated unit tests in lob_fix_test.cbl
 - **2023-10-25** `[173]`: Merge pull request #56 from pilvepank/feat-lob_vwap_engine
+- **2023-10-28** `[174]`: feat(lob_fix_parser): declare copybook schema FIX-MESSAGE.cpy
