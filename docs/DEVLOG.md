@@ -181,3 +181,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-11-12** `[178]`: feat(lob_twap_engine): declare copybook schema TWAP-CONFIG.cpy
 - **2023-11-16** `[179]`: feat(lob_twap_engine): implement lob_twap_engine.cbl operational routines
 - **2023-11-20** `[180]`: test(lob_twap_engine): add automated unit tests in lob_trailing_test.cbl
+- **2023-11-24** `[181]`: Merge pull request #59 from pilvepank/feat-lob_twap_engine
