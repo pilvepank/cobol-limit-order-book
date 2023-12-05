@@ -184,3 +184,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-11-24** `[181]`: Merge pull request #59 from pilvepank/feat-lob_twap_engine
 - **2023-11-28** `[182]`: feat(lob_stop_trailing): declare copybook schema TRAILING-STOP.cpy
 - **2023-12-01** `[183]`: feat(lob_stop_trailing): implement lob_stop_trailing.cbl operational routines
+- **2023-12-05** `[184]`: test(lob_stop_trailing): add automated unit tests in lob_iceberg_test.cbl
