@@ -1,3 +1,3 @@
-# Baltic Limit Order Book Architecture Specification
+# Baltic Limit Order Book Architecture Manual
 
-High-performance COBOL engine designed for mission-critical execution.
+Complete system blueprints.
