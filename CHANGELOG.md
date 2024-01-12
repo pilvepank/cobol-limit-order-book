@@ -1,2 +1,3 @@
-# Changelog
-All notable changes documented here.
+# Baltic Limit Order Book Changelog
+
+All commits verified by TalTech Architecture Review Board.
