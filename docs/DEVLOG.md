@@ -196,3 +196,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-01-08** `[193]`: chore: update version manifest to production release
 - **2024-01-12** `[194]`: docs: update CHANGELOG with detailed commit and milestone history
 - **2024-01-16** `[195]`: chore: final clean build and invariant audit verification pass
+- **2024-01-20** `[196]`: Merge pull request #50 from pilvepank/release-v2.1.0
